@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Reportes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ver Reportes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="inventario.html">Gestionar Inventario</a></li>
+                <li><a href="pedido.html">Realizar Pedido</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="report-management">
+            <h2>Reporte de Inventario</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Categoría</th>
+                        <th>Cantidad en Stock</th>
+                        <th>Fecha de Caducidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manzana</td>
+                        <td>Frutas</td>
+                        <td>100</td>
+                        <td>2024-12-31</td>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>Frutas</td>
+                        <td>150</td>
+                        <td>2024-12-15</td>
+                    </tr>
+                    <tr>
+                        <td>Leche</td>
+                        <td>Lácteos</td>
+                        <td>200</td>
+                        <td>2024-10-10</td>
+                    </tr>
+                    <tr>
+                        <td>Pan</td>
+                        <td>Panadería</td>
+                        <td>80</td>
+                        <td>2024-09-25</td>
+                    </tr>
+                    <tr>
+                        <td>Queso</td>
+                        <td>Lácteos</td>
+                        <td>60</td>
+                        <td>2024-11-05</td>
+                    </tr>
+                    <!-- Más productos si es necesario -->
+                </tbody>
+            </table>
+
+            <h2>Reporte de Ventas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad Vendida</th>
+                        <th>Ingresos Generados</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manzana</td>
+                        <td>50</td>
+                        <td>$50.00</td>
+                        <td>2024-09-01</td>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>80</td>
+                        <td>$40.00</td>
+                        <td>2024-09-01</td>
+                    </tr>
+                    <tr>
+                        <td>Leche</td>
+                        <td>120</td>
+                        <td>$144.00</td>
+                        <td>2024-09-01</td>
+                    </tr>
+                    <tr>
+                        <td>Pan</td>
+                        <td>30</td>
+                        <td>$24.00</td>
+                        <td>2024-09-01</td>
+                    </tr>
+                    <tr>
+                        <td>Queso</td>
+                        <td>25</td>
+                        <td>$62.50</td>
+                        <td>2024-09-01</td>
+                    </tr>
+                    <!-- Más productos si es necesario -->
+                </tbody>
+            </table>
+
+            <h2>Gráfico de Ventas Mensuales</h2>
+            <div class="chart">
+                <!-- Placeholder para el gráfico, que puede ser reemplazado por una imagen o un gráfico real utilizando una librería como Chart.js -->
+                <p>Gráfico de barras: Ventas de Productos por Mes</p>
+                <ul>
+                    <li>Enero: $5000</li>
+                    <li>Febrero: $4500</li>
+                    <li>Marzo: $6000</li>
+                    <li>Abril: $5500</li>
+                    <li>Mayo: $6500</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda de Comestibles MARIA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
